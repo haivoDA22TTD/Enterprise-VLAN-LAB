@@ -9,10 +9,10 @@ Hạ tầng mạng doanh nghiệp thông minh đa phân vùng được mô phỏ
 ```mermaid
 graph TD
     %% Định nghĩa các node thiết bị dựa trên sơ đồ thực tế
-    A[🛡️ Router 2811] <--> B[🔥 ASA 5506-X]
+    A[🌐 Router 2811] <--> B[🛡️ ASA 5506-X]
     B <--> C[🎛️ Layer 3 Core Switch]
     
-    subgraph Phân Vùng Văn Phòng (Bên Trái)
+    subgraph Office_Left [Phân Vùng Văn Phòng - VLAN 10/20]
         C <--> D[🔌 Switch Access Left]
         D <--> E1[💻 PC_KinhTe - VLAN 10]
         D <--> E2[💻 PC_NhanSu - VLAN 20]
@@ -20,7 +20,7 @@ graph TD
         D -. X .- F[⚠️ Laptop_Intern - Bị Khóa/Shutdown]
     end
 
-    subgraph Phân Vùng Quản Lý & Tự Động Hóa IoT (Bên Phải)
+    subgraph IoT_Right [Phân Vùng Quản Lý & IoT - VLAN 30/40/60]
         C <--> G[🔌 Switch Access Right]
         G <--> H1[💻 PC_GiamDoc - VLAN 30]
         G <--> H2[💻 PC_KyThuat - VLAN 40]
@@ -45,6 +45,7 @@ graph TD
 ---
 
 ## 🛠️ Công Nghệ & Giải Pháp Triển Khai
+
 
 
 | Phân Vùng | Thiết Bị Đầu Cuối | Công Nghệ & Giải Pháp | Trạng Thái Demo |
