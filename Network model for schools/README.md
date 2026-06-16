@@ -1,1 +1,1 @@
-# Network model for schools
+# Network model for schools lab
