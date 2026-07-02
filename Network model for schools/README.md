@@ -1,1 +1,1 @@
-# Network model for schools lab routing EIGRP
+# Network model for schools routing EIGRP lab 
