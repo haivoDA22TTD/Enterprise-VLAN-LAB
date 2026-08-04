@@ -86,7 +86,7 @@ Hệ thống giả lập được chứng minh hoạt động hoàn hảo thông
 ---
 
 ## 🛠️ Lưu ý về Giới hạn Giả lập (Software Image Limitation)
-Mô hình này tập trung sâu vào giải pháp định tuyến OSPF và kết nối VPN Site-to-Site. Tính năng kết nối VPN di động từ bên ngoài mạng Internet vào hệ thống (`VPN Client-to-Site`) tạm thời được lược bỏ bằng CLI do các giới hạn về mã nguồn hệ điều hành IOS bị cắt bớt tính năng xác thực mở rộng (`xauth`) trên các dòng Router phân khúc nhỏ của phiên bản Cisco Packet Tracer hiện tại. 
+Mô hình này tập trung sâu vào giải pháp định tuyến OSPF và kết nối VPN Site-to-Site. Tính năng kết nối VPN di động từ bên ngoài mạng Internet vào hệ thống (`VPN Client-to-Site`) tạm thời được lược bỏ bằng CLI do các giới hạn về mã nguồn hệ điều hành IOS bị cắt bớt tính năng xác thực mở rộng trên các dòng Router phân khúc nhỏ của phiên bản Cisco Packet Tracer hiện tại. 
 
 Giải pháp thay thế thực tế được đề xuất: Người dùng từ xa sẽ thực hiện VPN Client kết nối bắc cầu vào mạng Branch, sau đó tận dụng đường hầm Site-to-Site ổn định sẵn có để truy xuất dữ liệu an toàn về HQ.
 
