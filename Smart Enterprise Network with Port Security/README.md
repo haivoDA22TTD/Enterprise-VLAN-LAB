@@ -4,7 +4,7 @@ Hạ tầng mạng doanh nghiệp thông minh đa phân vùng được mô phỏ
 
 ---
 
-## 🗺️ Sơ Đồ Kiến Trúc Hệ Thống (System Architecture)
+## 🗺️ Sơ Đồ Kiến Trúc Hệ Thống 
 
 ```mermaid
 graph TD
