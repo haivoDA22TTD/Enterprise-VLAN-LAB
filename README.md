@@ -63,7 +63,7 @@ Core-SW(config-if)# switchport trunk encapsulation dot1q
 Core-SW(config-if)# switchport mode trunk
 Core-SW(config-if)# switchport trunk allowed vlan 10,20,30,40
 Core-SW(config-if)# end
-Core-SW# write memory
+Core-SW# wr
 ```
 
 ---
