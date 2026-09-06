@@ -68,7 +68,7 @@ Core-SW# wr
 
 ---
 
-## 🚀 Kế hoạch phát triển tiếp theo (To-Do List)
+## 🚀 Kế hoạch phát triển tiếp theo 
 
 Để chuẩn hóa mô hình mạng theo tiêu chuẩn Enterprise thực tế, các bước tiếp theo cần triển khai bao gồm:
 
