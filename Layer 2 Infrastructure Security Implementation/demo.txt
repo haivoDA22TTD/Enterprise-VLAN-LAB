@@ -1,1 +1,6 @@
-demo lab
+Layer 2 Infrastructure Security Implementation lab
+
+PortSecurity
+DHCP
+DHCP Snooping
+Dynamic ARP Inspection (DAI)
