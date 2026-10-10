@@ -1,6 +1,5 @@
 Layer 2 Infrastructure Security Implementation lab
 
 PortSecurity: Bảo mật port khóa cổng khi phát hiện thiết bị lạ cắm vào
-DHCP
 DHCP Snooping:Chống lại cuộc tấn công DHCP giả mạo 
 Dynamic ARP Inspection (DAI):Chống đầu độc ARP
