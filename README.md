@@ -4,15 +4,6 @@ Dự án mô phỏng và cấu hình hệ thống mạng VLAN cho doanh nghiệp
 
 ---
 
-## 📍 Trạng thái dự án hiện tại
-
-- [x] Khởi tạo và phân hoạch 4 VLAN chức năng.
-- [x] Cấu hình đường truyền **Trunking (802.1Q)** giữa Core Switch và các Access Switch.
-- [x] Cấu hình **SVI (Switch Virtual Interface)** trên Core Switch làm Default Gateway.
-- [x] Kích hoạt tính năng định tuyến IP (`ip routing`).
-- [x] **Kiểm tra thành công:** Tất cả các máy tính thuộc VLAN 10, 20, 30, 40 đã thông suốt và ping được lẫn nhau.
-
----
 
 ## 🗺️ Quy hoạch mạng & Phân chia VLAN
 
